@@ -66,7 +66,7 @@ resource "aws_security_group" "jenkins-sg" {
 
 #Create SG for allowing TCP/22 from your IP in us-west-2
 resource "aws_security_group" "jenkins-sg-oregon" {
-  provider = aws.region-worker
+  provider = aws.worker-region
 
   name        = "jenkins-sg-oregon"
   description = "Allow TCP/8080 & TCP/22"
