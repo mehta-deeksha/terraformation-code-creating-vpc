@@ -1,0 +1,24 @@
+[ec2-user@ip-172-31-23-67 deploy_iac_tf_ansible]$ history
+    1  wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+    2  ll
+    3  unzip terraform_0.12.29_linux_amd64.zip 
+    4  ll
+    5  sudo mv terraform /usr/local/bin/
+    6  terraform version
+    7  sudo yum -y install python3-pip
+    8  pip3 install awscli --user
+    9  pip3 install ansible --user
+   10  ansible version
+   11  ansible --version
+   12  mkdir deploy_iac_tf_ansible
+   13  cd deploy_iac_tf_ansible/
+   14  wget https://raw.githubusercontent.com/linuxacademy/content-deploying-to-aws-ansible-terraform/master/aws_la_cloudplayground_version/ansible.cfg
+   15  ll
+   16  ansible --version
+   17  less ansible.cfg 
+   18  aws cli configure
+   19  aws configure cli
+   20  aws configure
+   21  aws ec2 describe-instances
+   22  history
+[ec2-user@ip-172-31-23-67 deploy_iac_tf_ansible]$ 
