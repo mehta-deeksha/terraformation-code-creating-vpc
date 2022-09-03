@@ -10,7 +10,7 @@ variable "region-jenkins-master" {
 
 variable "region-jenkins-worker" {
         type = "string"
-        default = "us-east-2"
+        default = "us-west-2"
 }
 variable ""external_ip" {
         type = string
